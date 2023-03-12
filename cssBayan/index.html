@@ -5,14 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>cssBayan by Altynai Satybaldy</h1>
-      <ul id="accordion">
-        <li><label for="radio" name="accordion"</li>
-      </ul>
+    <div class="wrapper">
+      <h1 class="title">CSS Bayan</h1>
+      <div class="accordion__conteiner">
+        <div class="accordion__item">
+          <label class="accordion">
+            <input type="radio" name="radio-accordion" checked="checked" />
+            <div class="accordion__header">
+              HTML && CSS<span class="accordion__open">
+                <img src="./images/arrow.png" alt="arrow"
+              /></span>
+            </div>
+            <div class="accordion__content">
+              <img src="./images/img1.jpg" alt="image1" />
+            </div>
+          </label>
+        </div>
+        <div class="accordion__item">
+          <label class="accordion">
+            <input type="radio" name="radio-accordion" />
+            <div class="accordion__header">
+              Почему вы всегда ведете себя так, будто вы лучше меня<span
+                class="accordion__open"
+              >
+                <img src="./images/arrow.png" alt="arrow" />
+              </span>
+            </div>
+            <div class="accordion__content">
+              <img src="./images/mem1.jpg" alt="image2" />
+            </div>
+          </label>
+        </div>
+        <div class="accordion__item">
+          <label class="accordion">
+            <input type="radio" name="radio-accordion" />
+            <div class="accordion__header">
+              Уберите это от моего лица<span class="accordion__open">
+                <img src="./images/arrow.png" alt="arrow"
+              /></span>
+            </div>
+            <div class="accordion__content">
+              <img src="./images/mem4.jpg" alt="image3" />
+            </div>
+          </label>
+        </div>
+        <div class="accordion__item">
+          <label class="accordion">
+            <input type="radio" name="radio-accordion" />
+            <div class="accordion__header">
+              В смысле Javascript это не Java?<span class="accordion__open">
+                <img src="./images/arrow.png" alt="arrow"
+              /></span>
+            </div>
+            <div class="accordion__content">
+              <img src="./images/mem6.jpg" alt="image6" />
+            </div>
+          </label>
+        </div>
+        <div class="accordion__item">
+          <label class="accordion">
+            <input type="radio" name="radio-accordion" />
+            <div class="accordion__header">
+              Какое значение у переменной?<span class="accordion__open">
+                <img src="./images/arrow.png" alt="arrow"
+              /></span>
+            </div>
+            <div class="accordion__content">
+              <img src="./images/mem8.jpg" alt="image8" />
+            </div>
+          </label>
+        </div>
+      </div>
     </div>
   </body>
 </html>
