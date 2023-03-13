@@ -1,3 +1,3 @@
 # cssBayan
-https://altynaisati.github.io/cssBayan/index.html
+https://altynaisati.github.io/cssBayan/cssBayan/index.html
 
